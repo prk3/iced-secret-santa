@@ -1,0 +1,13 @@
+[package]
+name = "secret_santa"
+version = "0.1.0"
+authors = ["kukulski.przemyslaw@gmail.com <prk3@aber.ac.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = "0.1.0-beta"
+serde = "1.0.103"
+rand = "0.7.2"
+base64 = "0.2.1"
