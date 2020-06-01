@@ -1,13 +1,16 @@
 [package]
-name = "secret_santa"
+name = "iced_secret_santa"
 version = "0.1.0"
-authors = ["kukulski.przemyslaw@gmail.com <prk3@aber.ac.uk>"]
+authors = ["prk3 <kukulski.przemyslaw@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-iced = "0.1.0-beta"
+iced_native = "0.2.2"
+iced = "0.1.1"
 serde = "1.0.103"
 rand = "0.7.2"
 base64 = "0.2.1"
+clipboard = "0.5.0"
+lazy_static = "1.4.0"
